@@ -1,0 +1,36 @@
+# Build (gerados ao compilar/rodar)
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.nupkg
+TestResults/
+
+# Visual Studio / editores
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userprefs
+*.DotSettings.user
+
+# Temporários e logs
+*.tmp
+*.log
+*.bak
+
+# Segredos e configurações locais
+.env
+appsettings.Development.json
+
+# Dados gerados ao rodar o projeto (JSON criado na primeira execução, com as 5 áreas iniciais)
+src/ProTons.Console/dados/
+
+# Sistema operacional
+Thumbs.db
+.DS_Store
